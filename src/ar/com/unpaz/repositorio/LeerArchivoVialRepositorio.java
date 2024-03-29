@@ -10,7 +10,8 @@ public class LeerArchivoVialRepositorio implements Funcionalidades{
 
 	@Override
 	public List<Rutas> getListRutas() {
-		File sFile = new File ("C:\\\\Users\\\\giser\\\\OneDrive\\\\Escritorio\\\\2do año-1er cuatrimestre\\\\Programacion concurrente y paralela\\\\vial.csv");
+		//Reemplazar en el nombre del archivo 
+		File sFile = new File ("Aqui va la ruta donde usted tenga alojado el archivo Vial.csv");
 		List <Rutas> sListRutas = new ArrayList<Rutas>();
 		FileReader sFileReader;
 		
